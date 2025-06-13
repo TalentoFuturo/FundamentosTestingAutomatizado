@@ -11,7 +11,7 @@ Cada carpeta representa un ejemplo autocontenible, que puede ser ejecutado, prob
 
 | Ejemplo                            | Descripción                                                                 |
 |-----------------------------------|-----------------------------------------------------------------------------|
-| [`triangulo/`](./triangulo/)      | Programa en Python que clasifica triángulos, incluye pruebas unitarias y logging. |
+| [`triangulo/`](./Triangulo/)      | Programa en Python que clasifica triángulos, incluye pruebas unitarias y logging. |
 | [`flask_sentry/`](./flask_sentry/) | Aplicación mínima en Flask con integración a Sentry para captura de errores.     |
 
 > Nuevos ejemplos se irán agregando a medida que avance el curso.
