@@ -1,5 +1,5 @@
 
-# 💻 Ejemplos de Clases – TalentoFuturo
+# 💻 Repositorio Fundamentos de Testing Automatizado – TalentoFuturo
 
 Este repositorio contiene ejemplos prácticos utilizados durante las sesiones del curso **Fundamentos de Testing Automatizado** y otros contenidos complementarios para los estudiantes de TalentoFuturo.
 
