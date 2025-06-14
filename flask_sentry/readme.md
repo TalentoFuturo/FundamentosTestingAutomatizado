@@ -75,7 +75,7 @@ Características principales:
 
 - Ligero y extensible.
 - Fácil de usar y entender.
-- Compatible con herramientas modernas como Sentry, SQLAlchemy, Jinja2 y más.
+- Compatible con herramientas modernas como Sentry y muchas otras
 
 👉 Flask es ideal para aprender desarrollo web en Python y construir aplicaciones escalables de forma incremental.
 
