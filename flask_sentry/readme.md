@@ -52,6 +52,33 @@ La aplicación estará disponible en: http://localhost:5000
 - Se producirá una excepción intencional (ZeroDivisionError).
 - Verifica en tu cuenta de Sentry.io que el error fue capturado y registrado correctamente.
 
+# 📚 Aplicaciones
+
+### 🔍 ¿Qué es [Sentry](https://sentry.io/)?
+
+Sentry es una plataforma que permite monitorear errores y excepciones en aplicaciones de software en tiempo real. Proporciona información detallada sobre los fallos, incluyendo:
+
+- Pila de errores (stack trace)
+- Variables locales en el momento del error
+- Información del entorno (sistema operativo, navegador, etc.)
+- Frecuencia de ocurrencia y usuarios afectados
+
+👉 Es ampliamente usado en desarrollo web, móvil, backend y microservicios, ayudando a detectar y resolver errores rápidamente.
+
+---
+
+### 🔍 ¿Qué es [Flask](https://flask.palletsprojects.com/)?
+
+Flask es un framework minimalista y flexible para crear aplicaciones web con Python. Se utiliza para desarrollar APIs, aplicaciones web simples o complejas, y prototipos rápidos.
+
+Características principales:
+
+- Ligero y extensible.
+- Fácil de usar y entender.
+- Compatible con herramientas modernas como Sentry, SQLAlchemy, Jinja2 y más.
+
+👉 Flask es ideal para aprender desarrollo web en Python y construir aplicaciones escalables de forma incremental.
+
 ---
 
 
