@@ -8,7 +8,7 @@ Este ejemplo demuestra cómo integrar Sentry en una aplicación **Flask** básic
 
 La aplicación incluye dos rutas:
 
-- `/` → responde con “Hola Mundo”.
+- `/` → responde con “Hola Mundo Talento Futuro”.
 - `/error` → genera un error (división por cero), que es capturado y enviado a Sentry.
 
 ---
