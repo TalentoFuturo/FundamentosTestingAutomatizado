@@ -38,7 +38,7 @@ Para lograr lo anterior debes tener previamente creada tu cuenta en [Sentry.io](
 
 ### 4. Instalar dependencias
 ```bash
-pip install -r ../requirements.txt
+pip install -r requirements.txt
 ```
 
 ## ▶️ Ejecutar la aplicación Flask
