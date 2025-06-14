@@ -30,3 +30,7 @@ cd triangulo/  # o flask_sentry/, etc.
 python -m venv venv
 source venv/bin/activate  # en Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+---
+### Licencia
+Este proyecto está bajo la [MIT License](./LICENSE)
