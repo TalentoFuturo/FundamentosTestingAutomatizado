@@ -23,7 +23,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     #1/0  # Descomenta esto para probar un error 500
-    return "<p>Hello, World TalentoFuturo!</p>"
+    return "<p>Hello World TalentoFuturo!</p>"
     
 @app.route("/error")
 def error():
