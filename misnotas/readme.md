@@ -18,6 +18,13 @@ La idea es grabar un flujo *Crear / Verificar / Editar / Eliminar* y comprobarlo
 
 ### 1 . Instalar Selenium IDE
 
+| Navegador | Pasos |
+|-----------|-------|
+| **Chrome / Edge** | 1. Abre la [Chrome Web Store](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd).<br>2. Haz clic en **Añadir a Chrome** → **Añadir extensión**. |
+| **Firefox** | 1. Abre [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/selenium-ide/).<br>2. Pulsa **Añadir a Firefox** → **Agregar** → **Aceptar**. |
+
+Tras instalar verás un icono rojo **Se** junto a la barra de direcciones. ¡Listo para grabar!
+
 1. Abre Chrome o Firefox.  
 2. Busca **“Selenium IDE”** en la tienda de extensiones y agrégala.  
 3. Verás un icono rojo con “Se” en la barra.
