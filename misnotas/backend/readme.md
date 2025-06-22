@@ -46,7 +46,7 @@ python app.py
 ```
 
 * La API queda en `http://localhost:5000/`.
-* Todo el estado (notas) se guarda en RAM, así que cada reinicio empieza limpio.
+* Todo el estado (notas) se guarda en memoria, así que cada reinicio empieza limpio.
 
 ---
 
