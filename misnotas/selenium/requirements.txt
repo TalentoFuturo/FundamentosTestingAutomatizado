@@ -1,0 +1,11 @@
+# -- Núcleo de la automatización -----------------------
+selenium>=4.21.0,<5.0.0        # Librería oficial WebDriver
+webdriver-manager>=4.0.1       # Descarga automática del driver del navegador
+
+# -- Framework de testing -----------------------------
+pytest>=8.2.1,<9.0.0           # Motor de ejecución de pruebas
+
+# -- (Opcional) Reportes y utilidades -----------------
+pytest-html>=4.1.0             # Reporte HTML con resultados y screenshots
+pytest-xdist>=3.5.0            # Paralelismo en caso de suites grandes
+python-dotenv>=1.0.1           # Variables de entorno desde .env

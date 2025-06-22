@@ -1,0 +1,91 @@
+
+*::before,
+*::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #f5f7fa;
+  min-height: 100vh;
+
+  /* Centramos TODO el contenido */
+  display: flex;
+  justify-content: center;  /* eje X (horizontal) */
+  align-items: flex-start;  /* eje Y: arriba; cámbialo a center para
+                               centrar también verticalmente */
+  padding: 40px 20px;       /* aire alrededor */
+}
+
+* {
+  font-family: "Poppins", system-ui, sans-serif !important;
+}
+
+/* 2. Contenedor principal */
+.container {
+  width: 100%;
+  max-width: 1024px;         /* ancho fijo “bonito” */
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 48px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* 3. Encabezado */
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+/* 4. Formulario y controles */
+.form {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+
+input,
+textarea,
+select {
+  font-size: 1rem;
+  padding: 10px 12px;
+  border: 1px solid #2563eb; /*Cambiar este color */
+  border-radius: 8px;
+  width: 95%;
+}
+
+textarea { min-height: 80px; resize: vertical; }
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  margin: 5px;
+  padding: 12px 12px 12px 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+button:hover { opacity: .85; }
+
+/* 5. Tabla simple (sin trucos aún) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 12px 10px;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
