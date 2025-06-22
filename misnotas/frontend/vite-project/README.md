@@ -17,7 +17,7 @@ Instrucciones para levantar el front y conectarlo al backend Flask sin problemas
 
 ### 2. Crear el proyecto (si aún no existe)
 
-El repo ya incluye el código, pero dejo los comandos por si toca empezar en limpio:
+El repo ya incluye el código, pero dejo los comandos por si toca empezar desde cero:
 
 ```bash
 npm create vite@latest frontend -- --template react
@@ -25,7 +25,7 @@ cd frontend
 npm install
 ```
 
-(En este punto ya tienes la carpeta `frontend/` con React+Vite).
+(En este punto tenemos la carpeta `frontend/` con React+Vite).
 
 ---
 
