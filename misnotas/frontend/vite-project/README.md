@@ -105,17 +105,6 @@ Ejemplo de build:
 npm run build
 npm run preview   # abre http://localhost:4173
 ```
-
----
-
-### 8. Personalizar estilo
-
-* Toda la fuente global se fuerza en `App.css` con  
-  `* { font-family: "Poppins", system-ui, sans-serif !important; }`
-* Colores principales en la variable `--color-primary` (`#2563eb`).
-
----
-
 ---
 
 ¡Eso es todo! Con `npm run dev` y el backend en `python app.py` ya tenemos la app completa funcionando
