@@ -18,7 +18,7 @@ def notes_collection():
         "id": next_id,
         "title": data.get("title", ""),
         "body": data.get("body", ""),
-        "priority": data.get("priority", "medium"),
+        "priority": data.get("priority", ""),
     }
     notes.append(note)
     next_id += 1

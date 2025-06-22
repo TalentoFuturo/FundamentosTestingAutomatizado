@@ -57,9 +57,10 @@ export default function App() {
           value={form.priority}
           onChange={e => setForm({ ...form, priority: e.target.value })}
         >
-          <option value="high">Alta</option>
-          <option value="medium">Media</option>
-          <option value="low">Baja</option>
+          <option value="...">...</option>
+		  <option value="Alta">Alta</option>
+          <option value="Media">Media</option>
+          <option value="Baja">Baja</option>
         </select>
         <button type="submit">{form.id ? "Actualizar" : "Crear"}</button>
         {form.id && (

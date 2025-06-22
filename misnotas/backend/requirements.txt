@@ -1,0 +1,5 @@
+# Dependencias backend
+Flask
+Flask-Cors
+pytest
+pytest-cov
