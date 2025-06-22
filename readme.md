@@ -6,7 +6,11 @@ Este repositorio contiene ejemplos prácticos utilizados durante las sesiones de
 Cada carpeta representa un ejemplo autocontenible, que puede ser ejecutado, probado y extendido de forma independiente.
 
 ---
+## Wiki del curso
 
+Acá encontrarás información adicional y la Wiki del repositorio: [`Wiki`](https://github.com/TalentoFuturo/FundamentosTestingAutomatizado/wiki)  
+
+---
 ## 📁 Ejemplos disponibles
 
 | Ejemplo                            | Descripción                                                                 |
