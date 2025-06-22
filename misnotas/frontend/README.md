@@ -91,20 +91,4 @@ frontend/
 
 ---
 
-### 7. Scripts npm útiles
-
-| Script | Qué hace |
-|--------|----------|
-| `dev`  | Vite en modo desarrollo con HMR |
-| `build`| Compila al folder `dist/` (producción) |
-| `preview` | Sirve el build para un chequeo rápido |
-
-Ejemplo de build:
-
-```bash
-npm run build
-npm run preview   # abre http://localhost:4173
-```
----
-
 ¡Eso es todo! Con `npm run dev` y el backend en `python app.py` ya tenemos la app completa funcionando
