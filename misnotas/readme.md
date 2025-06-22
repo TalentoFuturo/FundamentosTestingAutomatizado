@@ -52,3 +52,9 @@ Tras instalar verás un icono rojo **Se** junto a la barra de direcciones. ¡Lis
 4. Detén la grabación.
 
 Ya tienes los comandos `type`, `select` y `click` grabados.
+
+### Ejercicios
+- Prueba: Crear una nota, elimina y editar.
+- Ahora lo mismo e incorpora Assets
+
+---
