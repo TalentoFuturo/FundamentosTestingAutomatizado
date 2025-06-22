@@ -8,8 +8,8 @@ git clone <este-repositorio>.git
 cd notas/backend
 ```
 
-> 💡 El backend vive en `notas/backend/`.  
-> El front está aparte en `notas/frontend/` y no es necesario para probar la API.
+> El backend vive en `misnotas/backend/`.  
+> El front está aparte en `misnotas/frontend/` y no es necesario para probar la API.
 
 ---
 
@@ -18,7 +18,7 @@ cd notas/backend
 ```bash
 python -m venv venv          # una sola vez
 # Windows
-.env\Scriptsctivate
+./env/Scripts/ctivate
 # macOS / Linux
 source venv/bin/activate
 ```
