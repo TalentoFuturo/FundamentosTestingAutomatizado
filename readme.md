@@ -38,4 +38,4 @@ pip install -r requirements.txt
 ```
 ---
 ### Licencia
-Este proyecto está bajo la [MIT License](./LICENSE)
+Este proyecto está bajo la [MIT License](./LICENSE) / Copyright (c) 2025 [osrehe](https://github.com/osrehe) Talento Futuro
