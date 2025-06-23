@@ -70,7 +70,32 @@ curl -X POST http://localhost:5000/api/notes      -H "Content-Type: application/
 
 ### 6. Tests (opcional pero recomendado)
 
+- **⚠️[Estrategia de pruebas](https://github.com/TalentoFuturo/FundamentosTestingAutomatizado/tree/main/misnotas/backend/tests)**
+
 ```bash
-pytest -q                           # corre todo
+pytest -v                           # corre todo ($ python -m pytest -v)
 pytest --cov=app --cov-report term  # con cobertura
+```
+Posible salida:
+```
+(venv) λ python -m pytest -v
+
+======== test session starts ========
+platform 
+cachedir: .pytest_cache
+rootdir: 
+plugins: cov-6.2.1
+collected 11 items
+
+tests/test_notes.py::test_create_each_priority PASSED                                                [  9%]
+tests/test_notes.py::test_create_missing_fields[title-invalid_json0] PASSED                          [ 18%]
+tests/test_notes.py::test_create_missing_fields[body-invalid_json1] PASSED                           [ 27%]
+tests/test_notes.py::test_create_missing_fields[priority-invalid_json2] PASSED                       [ 36%]
+tests/test_notes.py::test_create_invalid_priority PASSED                                             [ 45%]
+tests/test_notes.py::test_get_single_note PASSED                                                     [ 54%]
+tests/test_notes.py::test_get_not_found PASSED                                                       [ 63%]
+tests/test_notes.py::test_update_note PASSED                                                         [ 72%]
+tests/test_notes.py::test_update_not_found PASSED                                                    [ 81%]
+tests/test_notes.py::test_delete_note PASSED                                                         [ 90%]
+tests/test_notes.py::test_delete_not_found PASSED                                                    [100%]
 ```
