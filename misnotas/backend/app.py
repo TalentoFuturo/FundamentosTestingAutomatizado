@@ -17,7 +17,7 @@ def notes_collection():
     note = {
         "id": next_id,
         "title": data.get("title", ""),
-        "body": data.get("body", ""),
+        "body": data.get("body",""),
         "priority": data.get("priority", ""),
     }
     notes.append(note)

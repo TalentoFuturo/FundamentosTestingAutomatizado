@@ -1,7 +1,9 @@
 """
 Pruebas exhaustivas para backend/app.py (CRUD de notas)
 Ejecutar desde la carpeta Backend:
-$ pytest -q
+$ pytest -v
+En caso de funcionar probar con:
+$ python -m pytest -v    
 """
 
 import os, sys, pytest
