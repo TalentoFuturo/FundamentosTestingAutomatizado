@@ -19,7 +19,7 @@ Acá encontrarás información adicional y la Wiki del repositorio: [`Wiki`](htt
 | [`flask_sentry/`](./flask_sentry/readme.md) | Aplicación mínima en Flask con integración a Sentry para captura de errores.     |
 | [`ejercicios/`](./ejercicios/) | Ejercicios varios y prácticas     |
 | [`mis notas/`](./misnotas/readme.md) | Web para gestionar notas personales     |
-| Historias de Usuario y Test | Buenas p´racticas para generación de historias y test usando #IA     |
+| [Historias de Usuario y Tests](./ui/readme.md) | Buenas prácticas para generación de historias y test usando #IA     |
 | [`unit_test_OpenAI/`](./unit_test_OpenAI/readme.md) | Ejemplo de Unit Test usando Multi Prompt OpenAI     |
 
 
