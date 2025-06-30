@@ -19,6 +19,7 @@ Acá encontrarás información adicional y la Wiki del repositorio: [`Wiki`](htt
 | [`flask_sentry/`](./flask_sentry/readme.md) | Aplicación mínima en Flask con integración a Sentry para captura de errores.     |
 | [`ejercicios/`](./ejercicios/) | Ejercicios varios y prácticas     |
 | [`mis notas/`](./misnotas/readme.md) | Web para gestionar notas personales     |
+| [`unit_test_OpenAI/`](./unit_test_OpenAI/readme.md) | Web para gestionar notas personales     |
 
 
 > Nuevos ejemplos se irán agregando a medida que avance el curso.
