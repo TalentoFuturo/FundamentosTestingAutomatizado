@@ -98,4 +98,9 @@ Cada respuesta alimenta el siguiente prompt mediante la lista `messages`, constr
 
 ---
 
-© 2025 Greentest.ai / Licklider — Distribuido bajo licencia MIT
+## Código base e idea Original
+Código fuente base e idea original basada OpenAI ejemplo de concina: 
+- [Unit test writing using a multi-step prompt](https://github.com/openai/openai-cookbook/blob/main/examples/Unit_test_writing_using_a_multi-step_prompt.ipynb)
+
+---
+
